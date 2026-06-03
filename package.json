@@ -1,1 +1,22 @@
-
+{
+  "name": "whatsapp-personal-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered WhatsApp personal assistant for Ben Gozlan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.47.1",
+    "twilio": "^5.2.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.1",
+    "body-parser": "^1.20.2",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
